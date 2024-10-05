@@ -1,0 +1,3 @@
+Martin K. Dongmo 
+https://realpython.com/python-testing/ Used for testing of part 2 in order to familiarize myself with testing and version control
+Have a good night!
