@@ -9,10 +9,11 @@ def elementary_school_quiz(flag, n):
     # Preconditions: flag is 0 or 1, n is 1 or 2
     '''Will ask the elementary student if he wants to practice exponential or logatithms and give his n random equations of the corresponding time to solve'''
     #Only execute the functions if conditions are met:
+    score = 0
     if flag in [0,1] and n in [1,2]:
 
 
-        score =0
+
         #Ask n times
         for i in range(n):
             #Set up the power before hand
@@ -71,7 +72,7 @@ status=input("Hi "+name+". Are you in? Enter \n1 for elementary school\n2 for hi
 
 if status=='1':
     # your code goes here
-    grade = elementary_school_quiz(int(input("Do you want to practice logarithms or exponentials (0 for log and 1 for expo) : ")), int(input("One of two questions (You have to answer in numbers)? : "))) * 100
+    grade = elementary_school_quiz(int(input("Do you want to practice logarithms or exponentials (0 for log and 1 for expo) : ")), int(input("One or two questions (You have to answer in numbers)? : "))) * 100
     if grade == 100:
         print(f"Congratulations {name}! You’ll probably get an A tomorrow. Good bye {name}!")
     elif grade == 50:

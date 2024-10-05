@@ -1,0 +1,176 @@
+KeyboardInterrupt
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+
+**********************************************************************************************************************
+*                                                                                                                    *
+*   __Welcome to the extremely difficult high school quiz! attention decimals MATTER, you will never get a poin!__   *
+*                                                                                                                    *
+**********************************************************************************************************************
+What is your name? & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+Hi & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py". Are you in? Enter
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+& C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+Good bye & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"!
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+
+***********************************************************************************************************************
+*                                                                                                                     *
+*   __Welcome to the extremely difficult high school quiz! attention decimals MATTER, you will never get a point!__   *
+*                                                                                                                     *
+***********************************************************************************************************************
+What is your name? Mart
+Hi Mart. Are you in? Enter
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+2
+Mart, would you like a quadratic equation solved? 2
+Good bye Mart!
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+
+***********************************************************************************************************************
+*                                                                                                                     *
+*   __Welcome to the extremely difficult high school quiz! attention decimals MATTER, you will never get a point!__   *
+*                                                                                                                     *
+***********************************************************************************************************************
+What is your name? 2
+Hi 2. Are you in? Enter
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+Mart
+Good bye 2!
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+
+***********************************************************************************************************************
+*                                                                                                                     *
+*   __Welcome to the extremely difficult high school quiz! attention decimals MATTER, you will never get a point!__   *
+*                                                                                                                     *
+***********************************************************************************************************************
+What is your name? Mart
+Hi Mart. Are you in? Enter
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+2
+Mart, would you like a quadratic equation solved? yes
+Good choice!
+Enter your a coefficient : 3
+Enter your b coefficient : 4
+Enter your c coefficient : 5
+is satisfied for no number x
+Mart, would you like a quadratic equation solved? Traceback (most recent call last):
+  File "c:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM\a2_part_1_xxxxxx.py", line 89, in <module>
+    question=input(name+", would you like a quadratic equation solved? ").strip().lower()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+
+***********************************************************************************************************************
+*                                                                                                                     *
+*   __Welcome to the extremely difficult high school quiz! attention decimals MATTER, you will never get a point!__   *
+*                                                                                                                     *
+***********************************************************************************************************************
+What is your name? Mart K K Rot
+Hi Mart K K Rot. Are you in? Enter
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+2
+Mart K K Rot, would you like a quadratic equation solved? yes
+Good choice!
+Enter your a coefficient : 3
+Enter your b coefficient : 4
+Enter your c coefficient : 5
+The fucntion ({a})x^2+({b})x+({c}) = 0 is satisfied for no value of x
+Mart K K Rot, would you like a quadratic equation solved? yes
+Good choice!
+Enter your a coefficient : 3
+Enter your b coefficient : 4
+Enter your c coefficient : -5
+The fucntion (3)x^2+(4)x+(-5) = 0 has real roots at :
+        (6-3.872983346207417j) and at :
+        (-10+3.872983346207417j)
+
+Mart K K Rot, would you like a quadratic equation solved? yes
+Good choice!
+Enter your a coefficient : 1
+Enter your b coefficient : -675
+Enter your c coefficient : 2
+The fucntion (1)x^2+(-675)x+(2) = 0 has real roots at :
+        228148.58578643762 and at :
+        -227473.58578643762
+
+Mart K K Rot, would you like a quadratic equation solved? no
+Good bye Mart K K Rot!
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+
+***********************************************************************************************************************
+*                                                                                                                     *
+*   __Welcome to the extremely difficult high school quiz! attention decimals MATTER, you will never get a point!__   *
+*                                                                                                                     *
+***********************************************************************************************************************
+What is your name? O'Reily
+Hi O'Reily. Are you in? Enter
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+Do you want to practice logarithms or exponentials (0 for log and 1 for expo) : 5
+One of two questions (You have to answer in numbers)? : 2
+Use supported parameters only!
+Traceback (most recent call last):
+  File "c:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM\a2_part_1_xxxxxx.py", line 74, in <module>
+    grade = elementary_school_quiz(int(input("Do you want to practice logarithms or exponentials (0 for log and 1 for expo) : ")), int(input("One of two questions (You have to answer in numbers)? : "))) * 100       
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM\a2_part_1_xxxxxx.py", line 30, in elementary_school_quiz
+    return score/n
+           ^^^^^
+UnboundLocalError: cannot access local variable 'score' where it is not associated with a value
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+
+***********************************************************************************************************************
+*                                                                                                                     *
+*   __Welcome to the extremely difficult high school quiz! attention decimals MATTER, you will never get a point!__   *
+*                                                                                                                     *
+***********************************************************************************************************************
+What is your name? Laflamme
+Hi Laflamme. Are you in? Enter
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+Do you want to practice logarithms or exponentials (0 for log and 1 for expo) : 0
+One or two questions (You have to answer in numbers)? : 2
+What is the power put on 2 to reach 16
+ : 4
+What is the power put on 2 to reach 8
+ : 6
+ You answered 1 questions right.
+You did ok Laflamme, but I know you can do better. Goodbye Laflamme!
+Good bye Laflamme!
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> & C:/Python312/python.exe "c:/Users/MartT/Downloads/Assignment 2 attached files Oct 4, 2024 201 PM/a2_part_1_xxxxxx.py"
+
+***********************************************************************************************************************
+*                                                                                                                     *
+*   __Welcome to the extremely difficult high school quiz! attention decimals MATTER, you will never get a point!__   *
+*                                                                                                                     *
+***********************************************************************************************************************
+What is your name? keybr
+Hi keybr. Are you in? Enter
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+Do you want to practice logarithms or exponentials (0 for log and 1 for expo) : 1
+One or two questions (You have to answer in numbers)? : 2
+ What is the result of 2 to the power of 5
+ : 32
+ What is the result of 2 to the power of 7
+ : 128
+ You answered 2 questions right.
+Congratulations keybr! You’ll probably get an A tomorrow. Good bye keybr!
+Good bye keybr!
+PS C:\Users\MartT\Downloads\Assignment 2 attached files Oct 4, 2024 201 PM> 
