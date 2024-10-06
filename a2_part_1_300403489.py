@@ -1,5 +1,59 @@
-import math
 import random
+
+def logQuestion():
+    """
+    Ask the user a random logarithm question and checks if the answer is correct.
+
+    Returns:
+    int: 1 if the answer is correct, 0 otherwise
+    """
+    power = random.randint(0,10)
+    if int(input(f"What is the power put on 2 to reach {2**power}\n : ").strip()) == power:
+            return 1
+
+    return 0
+def powQuestion():
+    """
+    Ask the user a random power question and checks if the answer is correct.
+
+    Returns:
+    int: 1 if the answer is correct, 0 otherwise
+    """
+    power = random.randint(0,10)
+    if int(input(f" What is the result of 2 to the power of {power} \n : ").strip()) == 2**power:
+                return 1
+    return 0
+
+def getQuestionType(flag):
+    """
+    Gets a random math question of the type specified by the flag parameter.
+
+    Parameters:
+    flag :int: 0 for logarithm, 1 for exponential
+
+    Returns:
+    int: 1 if the answer is correct, 0 otherwise
+    """
+    if flag == 1:
+        return powQuestion()
+    if flag == 0:
+        return logQuestion()
+def elementaryRound(round, score, flag):
+    """
+    Represents a round in the math quiz game
+
+    Args:
+    round :int: The number of questions remaining
+    score :int: The current score.
+    flag :int: 0 for logarithm and 1 for power.
+
+    Returns:
+    int: The final score after asking the questions.
+    """
+    if round == 0:
+        return score
+    
+    return elementaryRound(round-1, score + getQuestionType(flag) , flag)
 
 
 def elementary_school_quiz(flag, n):
@@ -15,24 +69,21 @@ def elementary_school_quiz(flag, n):
     Returns:
     float: The score of the student
     """
-    #Only execute the functions if conditions are met:
-    score = 0
-    if flag in [0,1] and n in [1,2]:
-        #Ask n times
-        for i in range(n):
-            #Set up the power before hand
-            power = random.randint(0,10)
-            #If flag is 0 then logarithm will be asked
-            if not bool(flag):
-                if int(input(f"What is the power put on 2 to reach {2**power}\n : ").strip()) == power:
-                    score += 1
-            if flag == 1:
-                if int(input(f" What is the result of 2 to the power of {power} \n : ").strip()) == 2**power:
-                    score += 1
-        print(f" You answered {score} questions right.")
-    else:
-        print("Use supported parameters only!")
+    #Check if the parameters are valid
+    if flag not in [0,1]:
+        raise ValueError("flag should be 0 for logarithm or 1 for exponential")
+    if n not in [1,2]:
+        raise ValueError("n should be 1 or 2")
+
+    #execute the asked amount of quiz rounds to get the score
+    score = elementaryRound(n,0,flag)
+
+    #print the result
+    print(f" You answered {score} out of {n} questions right.")
+
+    #return the score in percentage
     return score/n
+
 
 
 def high_school_quiz(a, b, c):
@@ -65,10 +116,31 @@ def high_school_quiz(a, b, c):
     # If the discriminant is greater than zero, the equation has two solutions
     else:
         print(f'''The function ({a})x^2+({b})x+({c}) = 0 has real roots at :
-        {(-b+((b**2)-(4*a*c)**0.5))/2} and at :
-        {(-b-((b**2)-(4*a*c)**0.5))/2}
+        {(-b+((b**2)-(4*a*c))**0.5)/2} and at :
+        {(-b-((b**2)-(4*a*c))**0.5)/2}
         ''')
 
+def highSchoolRound():
+    """
+    Represents a round in the math quiz game
+
+    Returns:
+    None: Nothing
+
+    TODO : add core and log them for highscore.
+    """
+        # your code to handle varous form of "yes" goes here
+    if input(name+", would you like a quadratic equation solved? ").strip().lower() != "yes":
+        return 0
+
+    print("Good choice!")
+    # your code goes here (i.e ask for coefficients a,b and c and call)
+    # then make a function call and pass to the fucntion
+    high_school_quiz(float(input("Enter your a coefficient : ")), float(input("Enter your b coefficient : ")), float(input("Enter your c coefficient : ")))
+
+    highSchoolRound()
+
+        # the three coefficients the pupil entered
 
 
 # main
@@ -101,24 +173,7 @@ if status=='1':
     
 
 elif status=='2':
-
-
-
-    flag=True
-    while flag:
-        question=input(name+", would you like a quadratic equation solved? ").strip().lower()
-
-        # your code to handle varous form of "yes" goes here
-
-        if question!="yes":
-            break
-        else:
-            print("Good choice!")
-            # your code goes here (i.e ask for coefficients a,b and c and call)
-            # then make a function call and pass to the fucntion
-            high_school_quiz(int(input("Enter your a coefficient : ")), int(input("Enter your b coefficient : ")), int(input("Enter your c coefficient : ")))
-
-            # the three coefficients the pupil entered
+    highSchoolRound()
  
 else:
     # your code goes here
